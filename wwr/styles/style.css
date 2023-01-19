@@ -5,6 +5,7 @@ nav, footer {
 }
 
 a{
+    text-align: center;
     font-size: 1.5em;
     color: white;
     margin: 40px;
@@ -20,12 +21,17 @@ h2 {
     color: steelblue;
 }
 
-img {
-    width: 40%;
-    display: block;
-    margin: 0 auto;
-    border: 4px solid steelblue;
+#hero-msg h1 {
+    text-align: center;
 }
+
+#hero-msg h4 {
+    text-align: center;
+}
+
+/* img {
+    
+} */
 
 p {
     text-align: center;
@@ -37,7 +43,16 @@ p {
     color: steelblue;
 }
 
+#content {
+    margin: 0 auto;
+}
+
 a:hover {
     background-color: white;
     color: steelblue;
+}
+
+div
+{
+    max-width: 1600px;
 }
