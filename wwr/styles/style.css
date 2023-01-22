@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Work+Sans:wght@300&display=swap');
+
 nav, footer {
     text-align: center;
     background-color: steelblue;
@@ -10,6 +12,7 @@ a{
     color: white;
     margin: 40px;
     line-height: 1.5em;
+    font-family: "Work Sans", Helvetica, serif;
 }
 
 h1 {
@@ -19,14 +22,17 @@ h1 {
 
 h2 {
     color: steelblue;
+    font-family: "Playfair Display", Helvetica, serif;
 }
 
 #hero-msg h1 {
     text-align: center;
+    font-family: "Playfair Display", Helvetica, serif;
 }
 
 #hero-msg h4 {
     text-align: center;
+    font-family: "Work Sans", Helvetica, serif;
 }
 
 /* img {
@@ -45,6 +51,7 @@ p {
 
 #content {
     margin: 0 auto;
+    font-family: "Work Sans", Helvetica, serif;
 }
 
 a:hover {
