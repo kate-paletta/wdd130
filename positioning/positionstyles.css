@@ -129,25 +129,25 @@
   height: 400px;
 }
 .red5 { 
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 80px; 
   background-color: red; 
 } 
 .green5 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  float: left;
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
-
+  width: 100%; 
+  height: 350px; 
+  background-color: gold;
 } 
 .blue5 {
-  width: 100px; 
-  height: 100px; 
+  width: 100%; 
+  height: 80px; 
   background-color: blue; 
 } 
 /* Activity 6 styles */ 
