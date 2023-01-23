@@ -64,26 +64,32 @@
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .red3 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
+  width: 100%; 
+  height: 75px; 
+  background-color: red;
+  grid-column: 1/3;
+
 } 
 .green3 {
-  width: 100px; 
-  height: 100px; 
+  width: 90%; 
+  height: 150px; 
   background-color: green;
 } 
 .yellow3 {
-  width: 100px; 
-  height: 100px; 
+  width: 90%; 
+  height: px; 
   background-color: gold; 
+  justify-self: end;
 } 
 .blue3 {
-  width: 100px;
-  height: 100px; 
+  width: 100%;
+  height: 75px; 
   background-color: blue; 
+  grid-column: 1/3;
 } 
 /* Activity 4 styles */ 
 .content4 {
