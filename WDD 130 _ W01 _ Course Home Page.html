@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)https://byui-cse.github.io/wdd130-ww-course/week01/prove-html-start.html -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | W01 | Course Home Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./WDD 130 _ W01 _ Course Home Page_files/css2" rel="stylesheet">
+  <link rel="stylesheet" href="./WDD 130 _ W01 _ Course Home Page_files/course.css">
+  <link rel="stylesheet" href="./WDD 130 _ W01 _ Course Home Page_files/default.min.css">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1093.0" data-gr-ext-installed="">
+  <header>
+    <div class="page">
+      <h1>WDD 130<span id="coursetitle">: Web Fundamentals</span></h1>
+      <img src="./WDD 130 _ W01 _ Course Home Page_files/byui-logo.svg" alt="BYU-I logo" class="logo">
+    </div>
+  </header>
+  <nav class="page">
+    <div class="navitem">⏪<a href="https://byui-cse.github.io/wdd130-ww-course/week01/">Back</a></div>
+  </nav>
+  <main class="page">
+    <h2>Building Your Course Home Page</h2>
+    <h3>Overview</h3>
+    <p>This activity applies your learning by having you create a basic home page for the course in
+      HTML. You will maintain this home page throughout the course with updates, links to
+      assignments, and other enhancements.
+    </p>
+    <h3>Instructions</h3>
+
+    <ol>
+      <li>Create a course folder on your system named "<strong>wdd130</strong>" (lower case, no spaces).</li>
+      <li>In VS Code, open that wdd130 folder using <strong>File -&gt; Open Folder</strong>.</li>
+      <li>Create a new file in that wdd130 folder named "<strong>index.html</strong>". This
+        will be your course home page.
+        <div class="callout info">"index" is a standard page name on web servers that will load by
+          <strong>default</strong> unless changed by the server administrator. This page will load
+          if only the folder is referenced in a URL. Try it. In a browser window, go to ibm.com and
+          then go to ibm.com/index.html. The same page loads.
+        </div>
+      </li>
+
+      <li>In your index.html file, write the HTML markup to build the <strong>basic HTML page
+          anatomy</strong> including:
+        <ul class="check">
+          <li>the <strong>document type</strong>,</li>
+          <li>the <strong>html</strong> element with language attribute,</li>
+          <li>the <strong>head</strong> element within the html element's opening and closing tags,
+            and</li>
+          <li>the <strong>body</strong> element within the html element and after the head.</li>
+        </ul>
+        <details>
+          <summary>Check Your Work</summary>
+          <pre>        <code class="html hljs language-xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en-US"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+        </details>
+      </li>
+      <li>Within the <strong>head</strong> element, include the following from the required meta
+        information:
+        <ul class="check">
+          <li>Meta charset attribute</li>
+          <li>Meta viewport element</li>
+          <li>Title element</li>
+        </ul>
+      </li>
+      <li>Set the <strong>title</strong> content to "<strong>[Your Full Name] | WDD 130</strong>"
+        where [Your Full Name] is replaced with your actual, preferred full name.
+        <details>
+          <summary>Check Your Work</summary>
+          <pre>                <code class="html hljs language-xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en-US"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"utf-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width,initial-scale=1.0"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Xavier Rodriquez | WDD 130<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+        </details>
+      </li>
+      <li>Within the <strong>body</strong> element, include three, semantic, child elements:
+        <ul class="check">
+          <li><strong>header</strong></li>
+          <li><strong>main</strong></li>
+          <li><strong>footer</strong></li>
+        </ul>
+        to create the major sections of the page.
+      </li>
+
+      <li>Within the <strong>header</strong> element, add a <strong>nav</strong> element with
+        three anchor tag <strong>a</strong> elements with the following <strong>href</strong>
+        attribute values. Two
+        of the links are for future assignments
+
+        <pre><code class="html hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"wwr/"</span>&gt;</span>White Water Rafting Website<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"wwr/site-plan-rafting.html"</span>&gt;</span>White Water Rafting Siteplan<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span></code></pre>
+        <div class="callout info">The # value for the Home page href anchor link refers to the
+          current page and will not reload the page. This is the behavior and structure that we
+          want.</div>
+      </li>
+
+      <li>Within the <strong>main</strong> element:
+        <ul class="check">
+          <li>add a <strong>h1</strong> heading element that contains "Your Full Name | WDD 130"
+          </li>
+          <li>add an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank"> <strong>img</strong></a> element with the following attributes:
+            <ul class="check">
+
+              <li><strong>src</strong>: The src specifies the URL of the image file. It consists of
+                the path and the file name with its extension. Use the following path:
+                <code>src="images/profile.___"</code> where ___ will be your file extension.
+              </li>
+              <li><strong>alt</strong>: The alt attribute is required as part of accessibility to
+                provide alternative text to display when the image is not rendered by the browser.
+                Go ahead and include your name in the alternative text.</li>
+              <li><strong>width</strong>: Set the layout initial width of the image to
+                <strong>200</strong>.
+              </li>
+            </ul>
+          </li>
+          <li>add a <strong>p</strong> paragraph element that contains information that you want to
+            share about yourself.</li>
+        </ul>
+
+      </li><li>To support the image reference, add a new folder named <strong>images</strong> to your
+        wdd130
+        folder.</li>
+      <li>Copy or move a <strong>profile picture</strong> file of yourself into this images folder.
+        The acceptable <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types" target="_blank">image file types</a> for this assignment include:
+        <ul>
+          <li>png</li>
+          <li>webp</li>
+          <li>jpg</li>
+        </ul>
+
+      </li>
+      <li>Rename the image file <strong>profile.</strong> and, of course, use your image file
+        extension.</li>
+      <details>
+        <summary>Check Your Work</summary>
+        <pre><code class="html hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Xavier Rodriquez | WDD 130<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/profile.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Hello, my name is Xavier Rodriquez"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"200"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hello! My name is Xavier Rodriquez and I am from Piura, Perú. I enjoy ... <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span></code></pre>
+      </details>
+      <div class="callout info">
+        Demonstration: 🎦 <a href="https://video.byui.edu/media/t/1_yux5rj8f" target="_blank">Adding
+          an
+          Image</a>
+      </div>
+      
+
+      <li>Within the <strong>footer</strong> element, add a <strong>p</strong> paragraph element.
+        The paragraph should contain the following:
+        <ul class="check">
+          <li>The copyright symbol ©️ and the current year.
+            <div class="callout info">To display the copyright symbol, use the <a href="https://www.w3schools.com/html/html_symbols.asp" target="_blank">HTML
+                entity</a> <code>&amp;copy;</code> or use a built-in emoji.
+              <div class="callout reference"><strong>Built-in Emoji Menu</strong><br>Windows: Hold
+                the 🪟window key and press period (.)<br>
+                macOS: Hold down the following three keys at the same time:
+                <code>Command+Control+Spacebar</code> or press the fn key.
+              </div>
+            </div>
+          </li>
+          <li>Your name.</li>
+          <li>Your state or country.</li>
+        </ul>
+        Each of these items in the footer will be separated by an emoji or other symbol of your
+        choice.
+        <details>
+          <summary>Check Your Work</summary>
+          <pre><code class="html hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>©️2024 🌴 Xavier Rodriquez 🌴 Piura, Perú<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span></code></pre>
+        </details>
+      </li>
+
+
+      <li>Check your rendered page by right mouse clicking on the index.html file name in the
+        Explorer panel and selecting <strong>Open with Live Server</strong> or by using the menu
+        item at the bottom of VS Code. Live Server will open up the page in your default browser.
+        <div class="callout reference">
+          <h4>Complete Example</h4>
+          <pre><code class="html hljs language-xml"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en-US"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">"utf-8"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width,initial-scale=1.0"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Xavier Rodriquez | WDD 130<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"wwr/"</span>&gt;</span>White Water Rafting Website<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"wwr/site-plan-rafting.html"</span>&gt;</span>White Water Rafting Siteplan<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">main</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Xavier Rodriquez | WDD 130<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"images/profile.jpg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Hello, my name is Xavier Rodriquez"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"200"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Hello! My name is Xavier Rodriquez and I am from Piura, Perú. I enjoy ... <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>©️2024 🌴 Xavier Rodriquez 🌴 Piura, Perú<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+        </div>
+      </li>
+      <li><strong>Validate</strong> your HTML by running the <strong>Web Developer</strong> extension in your browser.
+        <ol><li>Render the page on your browser using the <strong>Live Server</strong> tool in VS Code.</li>
+          <li>Using the Web Developer extension, click <code>Tools -&gt; Validate Local HTML</code> to get an HTML validation report.</li>
+      <li><strong>Correct</strong> any issues that you observe after testing the page. Post your questions to MS Teams.</li></ol>
+      </li><li><strong>Save</strong> your work.
+        <div class="callout info">It is recommended that you turn on Auto Save in VS Code. Go to
+          <code>File -&gt; Preferences -&gt; Settings</code> and then type "<em>Auto Save</em>" in the search
+          bar at the top of the panel. Use the pull-down menu to select <strong>afterDelay</strong>.
+          Set the <strong>Files: Auto Save Delay</strong> field to something like 1000 ms (1
+          second).<br>
+          📑<a href="https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save">Save /
+            Auto Save</a></div>
+      </li>
+    </ol>
+    <h3>Submission</h3>
+    <ol>
+      <li>There is nothing to submit at this point. You will be committing and pushing/uploading
+        your work to a remote repository on GitHub for publication in the next activity.
+      </li>
+    </ol>
+  </main>
+  <footer>
+    <p>Copyright © Brigham Young University-Idaho | All rights reserved</p>
+  </footer>
+  <script src="./WDD 130 _ W01 _ Course Home Page_files/highlight.min.js.download"></script>
+  <script>hljs.highlightAll();</script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
