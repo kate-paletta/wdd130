@@ -26,6 +26,10 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
+p {
+    font-family: "Bad Script", Helvetica, sans-serif;
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
