@@ -116,3 +116,19 @@ body{
   margin-right: auto;
   width: 50%;
 }
+
+header {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
