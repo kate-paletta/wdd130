@@ -3,9 +3,9 @@
 nav, footer {
     text-align: center;
     background-color: steelblue;
-    padding: 10px;
+    /* padding: 10px;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 200px; */
 }
 
 a{
