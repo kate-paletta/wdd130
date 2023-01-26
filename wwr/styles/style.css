@@ -41,6 +41,7 @@ h2 {
 #hero-msg h4 {
     text-align: center;
     font-family: "Work Sans", Helvetica, serif;
+    color: beige;
 }
 
 /* img {
@@ -131,4 +132,21 @@ nav {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
 }
