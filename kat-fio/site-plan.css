@@ -30,6 +30,21 @@ p {
   font-family: "Yeseva One";
 }
 
+.home-img {
+  max-width: 30%;
+  height: auto;
+}
+
+.trad-img {
+  max-width: 30%;
+  height: auto;
+}
+
+.dig-img {
+  max-width: 30%;
+  height: auto;
+}
+
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
