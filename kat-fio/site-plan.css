@@ -45,6 +45,10 @@ p {
   height: auto;
 }
 
+.logo-img {
+  max-width: 10%;
+  height: auto;
+}
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
