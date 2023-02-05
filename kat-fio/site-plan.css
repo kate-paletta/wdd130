@@ -170,6 +170,67 @@ body {
   width: 95%;
   height: auto;
 }
+
+/*Formatting DIGITAL PAGE*/
+.dig-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.dig-content h2 {
+  font-family: "Yeseva", Helvetica, sans-serif;
+  grid-column-start: 2;
+}
+.dig-content p {
+  font-family: "Bad Script", Helvetica, sans-serif;
+  font-size: larger;
+  grid-column: 2/5;
+  grid-row: 1/2;
+}
+
+#moon {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 95%;
+  height: auto;
+}
+#mountain {
+  grid-column: 5/6;
+  grid-row: 1/2;
+  width: 95%;
+  height: auto;
+}
+#purple-lady {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 95%;
+  height: auto;
+}
+#reaper {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 95%;
+  height: auto;
+}
+#eowyn {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  width: 95%;
+  height: auto;
+}
+#prayers {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  width: 95%;
+  height: auto;
+}
+#quote {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  width: 95%;
+  height: auto;
+}
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
